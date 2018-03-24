@@ -23,7 +23,7 @@ client.on('message', message => {
       message.member.voiceChannel.join()
         .then(connection => { // Connection is an instance of VoiceConnection
           message.reply('laat het feest maar beginnen!! :)');
-          connection.playStream("http://stream.radiocorp.nl/web10_mp3");
+          connection.playStream("http://18973.live.streamtheworld.com/RADIO538.mp3");
         })
         .catch(console.log);
     } else {
