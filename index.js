@@ -51,4 +51,4 @@ client.on('message', message => {
 });
 //npm install ytdl-core voor youtube commando
 
-client.login('NDIzNTU0MTExODkyNDg4MTky.DY1xSA.fCr49AQQJk2XXGfE8WlyCFIFmms');
+client.login(process.env.TOKEN);
